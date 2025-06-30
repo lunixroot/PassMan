@@ -1,12 +1,63 @@
-# React + Vite
+# 🔐 PassMan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Empower Secure, Seamless Password Management Everywhere**
 
-Currently, two official plugins are available:
+PassMan is a simple and secure password manager built with **React** and **Vite**. It allows users to store, view, copy, and manage their passwords locally on their device in a user-friendly interface. Designed with privacy and simplicity in mind — your data stays with you.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔒 **Secure Password Storage** (client-side)
+- 📋 **One-click Copy to Clipboard**
+- ✏️ **Edit & Delete Entries**
+- 🌗 **Dark/Light Mode Support**
+- ⚡ **Fast Performance** via Vite + React
+- 🧰 **TailwindCSS** for clean UI (if used)
+- ♻️ **Hot Module Reloading** in development
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React (with Vite)
+- **Styling**: CSS / Tailwind CSS (if integrated)
+- **State Management**: React Hooks
+- **Clipboard API** for copying passwords
+- **Local Storage** for saving passwords (no server/backend)
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/PassMan.git
+```
+### 2. Navigate to the project directory:
+```bash
+cd PassMan
+```
+
+### 3. Install Dependencies
+Using npm:
+
+```bash
+npm install 
+```
+
+### 4. USAGE 
+Run the project with:
+Using npm:
+
+```bash
+npm run dev
+```
+## ✅ Usage
+- Click “Add Password” to store a new password.
+- View all stored credentials in a list.
+-	Click the Copy icon to copy a password securely.
+-	Edit or delete entries with a single click.
+
+All data is stored in the browser’s localStorage and never leaves your device.
